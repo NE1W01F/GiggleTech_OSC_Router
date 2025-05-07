@@ -175,7 +175,7 @@ async fn run_giggletech() -> async_osc::Result<()> {
                     } else if address == *device.proximity_parameter {
 
                         // ------------------------------------------------------------------------------------------------------------------------------- POOL TOY HACK LOGIC
-                        if address == "/avatar/parameters/pool_toy"{
+                        if address == "/avatar/parameters/Shape/Rounder"{
                             println!("Pool Toy Found...");
                             println!("{}", value);
 
